@@ -17,6 +17,6 @@ The best model, based on the Mean Absolute Percentage Error (MAPE) was the Suppo
 
 ![SVR compared with benchmarks](https://github.com/user-attachments/assets/1b52a806-b98f-4140-ad8e-1fb5a534f094)
 
-The difficulty in beating the naive median-based benchmark has to do with the extreme skew of the data. A majority of the fires are very small. (Almost 70% are smaller than 5 hectares.)
-
-This means that if we had a model that for any fire, regardless of the predictors, just guessed "I'm sure it will be very small!", then that model would usually be right. And that is basically what the median-based benchmarks do.
+## Conclusion
+The results were somewhat disappointing. While the model performs better than the one presented in the Portuguese study, it still does not have much value, since it does not outperform a naive median-based benchmark. The difficulty in beating the naive median-based benchmark has to do with the extreme skew of the data. A majority of the fires are very small. (Almost 70% are smaller than 5 hectares.) This means that if we had a model that for any fire, regardless of the predictors, just guessed "I'm sure it will be very small!", then that model would usually be right. And that 
+is basically what the median-based benchmarks do.
