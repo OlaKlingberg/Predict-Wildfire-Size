@@ -9,7 +9,7 @@ The project employs machine-learning models to predict the size of wildfires in 
 ## Key Features:
 * **Feature Engineering**: Uses **backwards stepwise elimination** to select relevant features from meteorological variables, such as temperature, humidity, wind speed, and precipitation.
 * **Model Development**: Explores and compares four different kinds of models: **Linear Regression, Support-Vector Regression (SVR), Random Forest**, and a **Feed-Forward Neural Network**.
-* **Model Evaluation**: Assesses model accuracy using **Mean Absolute Error (MAE), Root Mean Squared error (RMSE)**, and **Mean Absolute Percentage Error (MAPE)**, and compares them to naive basemarks based on both the mean and median fire sizes, as well as "semi-naive" benchmarks which take the month of the year, but not meteorological factors, into consideration.
+* **Model Evaluation**: Assesses model accuracy using **Mean Absolute Error (MAE), Root Mean Squared error (RMSE)**, and **Mean Absolute Percentage Error (MAPE)**, and compares them to naive basemarks based on both the mean and median fire sizes, as well as "semi-naive" benchmarks which take the month of the year, but no meteorological factors, into consideration.
 * **Visualization**: Visualizes the model performance with **Receiver Error Characteristic (REC)** curves (an analog to ROC curves adopted to regression tasks).
 
 ## Results
